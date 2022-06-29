@@ -75,3 +75,17 @@ SASS переменные (по желанию).
 [БЭМ](https://ru.bem.info/)
 
 [BEM-шпаргалка](https://9elements.com/bem-cheat-sheet/)
+
+[SassMeister - Sass-емулятор](https://www.sassmeister.com/)
+
+[Документация Sass](https://sass-lang.com/documentation/)
+
+[Приложение Scout App](https://scout-app.io/)
+
+[Эстетичный Sass: архитектура и организация](http://prgssr.ru/development/estetichnyj-sass-chast-1-arhitektura-i-organizaciya.html)
+
+[Автопрефиксер CSS онлайн](http://autoprefixer.github.io/ru/)
+
+[Нужное количество версий выбирается в интерфейсе автопрефиксера в специальном формате Browserslist - конфигурации описывающей версии браузеров которые должен поддерживать код проекта](https://github.com/browserslist/browserslist)
+
+[Корисний патерн для структури - Sass Guidelines](https://sass-guidelin.es/#the-7-1-pattern)
