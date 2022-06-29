@@ -22,14 +22,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
     <!--Шапка сайта-->
-    <header class="page__header">
-      <div class="container">
-        <nav class="nav">
+    <header class="header">
+      <div class="container header__container">
+        <nav class="nav header__nav">
           <!--Навигация на другие страницы-->
           <a href="./index.html" class="logo"
             >Web<span class="logo__label">Studio</span></a
@@ -47,14 +47,14 @@
           </ul>
         </nav>
         <ul class="contacts list">
-          <li class="contacts__item mail">
+          <li class="contacts__item">
             <a href="mailto:info@devstudio.com" class="contacts__link"
               ><svg class="contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope-hover"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="contacts__item tel">
+          <li class="contacts__item">
             <a href="tel.:+380961111111" class="contacts__link"
               ><svg class="contacts__icon" width="12" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
@@ -93,7 +93,7 @@
                 </svg>
               </div>
               <h3 class="feature__title">Внимание к деталям</h3>
-              <p class="feature__text">
+              <p class="feature__desc">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
@@ -105,7 +105,7 @@
                 </svg>
               </div>
               <h3 class="feature__title">Пунктуальность</h3>
-              <p class="feature__text">
+              <p class="feature__desc">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
@@ -117,7 +117,7 @@
                 </svg>
               </div>
               <h3 class="feature__title">Планирование</h3>
-              <p class="feature__text">
+              <p class="feature__desc">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
@@ -129,7 +129,7 @@
                 </svg>
               </div>
               <h3 class="feature__title">Современные технологии</h3>
-              <p class="feature__text">
+              <p class="feature__desc">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -143,34 +143,34 @@
           <h2 class="about__title">Чем мы занимаемся</h2>
           <ul class="about__list list">
             <li class="about__item">
-              <div class="about__picture">
+              <div class="picture">
                 <img
                   class=""
                   src="./images/transformer.jpg"
                   alt="На фото ноутбук-трансформер и руки на клавиатуре"
                   width="370"
                 />
-                <p class="about__subtitle">Десктопные приложения</p>
+                <p class="picture__caption">Десктопные приложения</p>
               </div>
             </li>
             <li class="about__item">
-              <div class="about__picture">
+              <div class="picture">
                 <img
                   src="./images/laptop.jpg"
                   alt="На фото ноутбук и смартфон в руке"
                   width="370"
                 />
-                <p class="about__subtitle">Мобильные приложения</p>
+                <p class="picture__caption">Мобильные приложения</p>
               </div>
             </li>
             <li class="about__item">
-              <div class="about__picture">
+              <div class="picture">
                 <img
                   src="./images/tablet.jpg"
                   alt="На фото планшет в руке"
                   width="370"
                 />
-                <p class="about__subtitle">Дизайнерские решения</p>
+                <p class="picture__caption">Дизайнерские решения</p>
               </div>
             </li>
           </ul>
@@ -404,7 +404,7 @@
 
     <!--Футер-->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer__container">
         <div class="address">
           <a href="./index.html" class="logo"
             >Web<span class="logo__label--reverse">Studio</span></a
