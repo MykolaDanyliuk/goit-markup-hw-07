@@ -13,6 +13,10 @@
   margin-top: 20px;
 }
 
+.address__list {
+  @extend %list;
+}
+
 .address__item:not(:last-child) {
   margin-bottom: 10px;
 }
@@ -55,6 +59,7 @@
 
 .join__list {
   display: flex;
+  @extend %list;
 }
 
 .join__item {

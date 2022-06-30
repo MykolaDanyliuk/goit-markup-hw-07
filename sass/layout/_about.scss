@@ -13,6 +13,7 @@
 
 .about__list {
   display: flex;
+  @extend %list;
 }
 
 .about__item + .about__item {
