@@ -2,7 +2,7 @@
   color: var(--accent-color);
 
   font-family: Raleway, sans-serif;
-  @include font(700, 26px, 1.2, 0.03em);
+  @include font(700, 26px, 1.2, null);
   text-decoration: none;
   &:focus {
     color: var(--accent-color);

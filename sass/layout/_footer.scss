@@ -49,7 +49,7 @@
 
   color: var(--primary-white-color);
 
-  @include font(700, 14px, 1.4, 0.03em);
+  @include font(700, 14px, 1.4, null);
   text-transform: uppercase;
 }
 
@@ -92,7 +92,7 @@
   margin-top: 12px;
   margin-bottom: 20px;
 
-  @include font(700, 14px, 1.4, 0.03em);
+  @include font(700, 14px, 1.4, null);
   text-transform: uppercase;
 
   color: var(--primary-white-color);

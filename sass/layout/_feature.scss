@@ -20,7 +20,7 @@
 .feature-list__title {
   margin-bottom: 10px;
 
-  @include font(700, 14px, 1.4, 0.03em);
+  @include font(700, 14px, 1.4, null);
   text-transform: uppercase;
 }
 
