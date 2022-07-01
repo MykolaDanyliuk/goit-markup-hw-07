@@ -1,33 +1,31 @@
 .footer {
-  background-color: var(--footer-bg-color);
-
   padding-top: 60px;
   padding-bottom: 60px;
+
+  background-color: var(--footer-bg-color);
 }
 
 .footer__container {
   display: flex;
 }
 
-.address__content {
+.address__address-content {
   margin-top: 20px;
 }
 
-.address__list {
+.address-content__list {
   @extend %list;
 }
 
-.address__item:not(:last-child) {
+.address-content__item:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.address__link {
+.address-content__link {
   color: var(--primary-white-color);
 
+  @include font(400, 14px, 1.7, 0.03em);
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
@@ -41,7 +39,7 @@
   color: var(--contacts-footer-color);
 }
 
-.join {
+.footer__join {
   margin-left: 70px;
 }
 
@@ -51,9 +49,7 @@
 
   color: var(--primary-white-color);
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.4;
+  @include font(700, 14px, 1.4, 0.03em);
   text-transform: uppercase;
 }
 
@@ -88,16 +84,15 @@
   fill: var(--primary-white-color);
 }
 
-.subscribe {
+.footer__subscribe {
   margin-left: auto;
 }
 
 .subscribe__title {
   margin-top: 12px;
   margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.4;
+
+  @include font(700, 14px, 1.4, 0.03em);
   text-transform: uppercase;
 
   color: var(--primary-white-color);

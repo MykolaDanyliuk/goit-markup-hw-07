@@ -4,27 +4,27 @@
 
 .about__title {
   margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  @include font(700, 36px, 1.17, 0.03em);
+  // font-weight: 700;
+  // font-size: 36px;
+  // line-height: 1.17;
   text-align: center;
 }
 
-.about__list {
+.pic-list {
   display: flex;
   @extend %list;
 }
 
-.about__item + .about__item {
+.pic-list__item + .pic-list__item {
   margin-left: 30px;
 }
 
-.picture {
+.pic-list__img {
   position: relative;
 }
 
-.picture__caption {
+.pic-list__caption {
   position: absolute;
   bottom: 0;
   margin: 0;
@@ -35,9 +35,7 @@
   background: rgba(47, 48, 58, 0.8);
   color: var(--primary-white-color);
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.4;
+  @include font(700, 14px, 1.4, 0.03em);
   text-align: center;
   text-transform: uppercase;
 }

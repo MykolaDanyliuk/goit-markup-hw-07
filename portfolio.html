@@ -34,27 +34,27 @@
           <a href="./index.html" class="logo"
             >Web<span class="logo__label">Studio</span></a
           >
-          <ul class="nav__list list">
-            <li class="nav__item">
-              <a href="./index.html" class="nav__link">Студия</a>
+          <ul class="menu nav__menu">
+            <li class="menu__item">
+              <a href="./index.html" class="menu__link">Студия</a>
             </li>
-            <li class="nav__item">
-              <a href="./portfolio.html" class="nav__link current">Портфолио</a>
+            <li class="menu__item">
+              <a href="" class="menu__link current">Портфолио</a>
             </li>
-            <li class="nav__item">
-              <a href="" class="nav__link">Контакты</a>
+            <li class="menu__item">
+              <a href="" class="menu__link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="contacts list">
-          <li class="contacts__item mail">
+        <ul class="contacts header__contacts">
+          <li class="contacts__item">
             <a href="mailto:info@devstudio.com" class="contacts__link"
               ><svg class="contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope-hover"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="contacts__item tel">
+          <li class="contacts__item">
             <a href="tel.:+380961111111" class="contacts__link"
               ><svg class="contacts__icon" width="12" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
@@ -68,17 +68,17 @@
 
     <!--Main-контент-->
     <main class="portfolio">
-      <section class="portdolio__section section">
+      <section class="section">
         <div class="container">
           <h1 class="portfolio__title visually__hidden">Наши проекты</h1>
-        <ul class="filter list">
+        <ul class="filter portfolio__filter">
           <li class="filter___item"><button type="button" class="filter__btn pointer">Вcе</button></li>
           <li class="filter___item"><button type="button" class="filter__btn pointer">Веб-сайты</button></li>
           <li class="filter___item"><button type="button" class="filter__btn pointer">Приложения</button></li>
           <li class="filter___item"><button type="button" class="filter__btn pointer">Дизайн</button></li>
           <li class="filter___item"><button type="button" class="filter__btn pointer">Маркетинг</button></li>
         </ul>
-        <ul class="grid list">
+        <ul class="grid">
           <li class="grid__item">
             <a href="" class="grid__link">
               <div class="grid__thumb">
@@ -87,14 +87,14 @@
                 alt="технокряк"
                 width="370"      
               />
-              <div class="overlay">
+              <div class="grid__overlay">
                 <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                   Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p>
                 </div> 
               </div>
-              <div class="overlay__text">
-                <h2 class="overlay__title">Технокряк</h2>
-                <p class="overlay__desc">Веб-сайт</p>                
+              <div class="grid__text">
+                <h2 class="grid__title">Технокряк</h2>
+                <p class="grid__desc">Веб-сайт</p>                
               </div>
             </a>
           </li>
@@ -106,14 +106,14 @@
                 alt="постер баскетбол"
                 width="370"
               />
-              <div class="overlay">
+              <div class="grid__overlay">
                 <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                 Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p> 
                 </div> 
               </div>
-              <div class="overlay__text">
-                <h2 class="overlay__title">Постер New Orlean vs Golden Star</h2>
-                <p class="overlay__desc">Дизайн</p>
+              <div class="grid__text">
+                <h2 class="grid__title">Постер New Orlean vs Golden Star</h2>
+                <p class="grid__desc">Дизайн</p>
               </div>
             </a>
           </li>
@@ -125,14 +125,14 @@
                 alt="ресторан"
                 width="370"
               />
-              <div class="overlay">
+              <div class="grid__overlay">
                 <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                 Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p> 
                 </div>              
               </div>
-              <div class="overlay__text">
-                <h2 class="overlay__title">Ресторан Seafood</h2>
-                <p class="overlay__desc">Приложение</p>
+              <div class="grid__text">
+                <h2 class="grid__title">Ресторан Seafood</h2>
+                <p class="grid__desc">Приложение</p>
               </div>
             </a>
           </li>
@@ -144,14 +144,14 @@
                 alt="проект prime"
                 width="370"
               />
-              <div class="overlay">
+              <div class="grid__overlay">
                 <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                 Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p> 
                 </div>              
               </div>
-              <div class="overlay__text">
-                <h2 class="overlay__title">Проект Prime</h2>
-                <p class="overlay__desc">Маркетинг</p>
+              <div class="grid__text">
+                <h2 class="grid__title">Проект Prime</h2>
+                <p class="grid__desc">Маркетинг</p>
               </div>
             </a>
           </li>
@@ -163,14 +163,14 @@
                 alt="проект boxes"
                 width="370"
               />
-              <div class="overlay">
+              <div class="grid__overlay">
                 <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                 Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p> 
                 </div> 
               </div>
-              <div class="overlay__text">
-                <h2 class="overlay__title">Проект Boxes</h2>
-                <p class="overlay__desc">Приложение</p>
+              <div class="grid__text">
+                <h2 class="grid__title">Проект Boxes</h2>
+                <p class="grid__desc">Приложение</p>
               </div>
             </a>
           </li>
@@ -182,14 +182,14 @@
                 alt="вебсайт inspiration"
                 width="370"
               />
-              <div class="overlay">
+              <div class="grid__overlay">
                 <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                 Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p> 
                 </div> 
               </div>
-              <div class="overlay__text">
-                <h2 class="overlay__title">Inspiration has no Borders</h2>
-                <p class="overlay__desc">Веб-сайт</p>
+              <div class="grid__text">
+                <h2 class="grid__title">Inspiration has no Borders</h2>
+                <p class="grid__desc">Веб-сайт</p>
               </div>
             </a>
           </li>
@@ -201,14 +201,14 @@
                 alt="журнал edition"
                 width="370"
               />
-              <div class="overlay">
+              <div class="grid__overlay">
                 <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                 Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p> 
                 </div> 
               </div>
-              <div class="overlay__text">
-                <h2 class="overlay__title">Издание Limited Edition</h2>
-                <p class="overlay__desc">Дизайн</p>
+              <div class="grid__text">
+                <h2 class="grid__title">Издание Limited Edition</h2>
+                <p class="grid__desc">Дизайн</p>
               </div>
             </a>
           </li>         
@@ -220,14 +220,14 @@
                 alt="проект lab"
                 width="370"
               />
-              <div class="overlay">
+              <div class="grid__overlay">
                 <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                 Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p> 
                 </div> 
               </div>
-              <div class="overlay__text">
-                <h2 class="overlay__title">Проект LAB</h2>
-                <p class="overlay__desc">Маркетинг</p>
+              <div class="grid__text">
+                <h2 class="grid__title">Проект LAB</h2>
+                <p class="grid__desc">Маркетинг</p>
               </div>  
             </a>
           </li>
@@ -239,14 +239,14 @@
                 alt="приложение buisness"
                 width="370"
               />
-              <div class="overlay">
+              <div class="grid__overlay">
                 <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                 Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице</p> 
                 </div> 
               </div>
-            <div class="overlay__text">
-              <h2 class="overlay__title">Growing Business</h2>
-              <p class="overlay__desc">Приложение</p>
+            <div class="grid__text">
+              <h2 class="grid__title">Growing Business</h2>
+              <p class="grid__desc">Приложение</p>
             </div>
             </a>
           </li>
@@ -262,52 +262,54 @@
           <a href="./index.html" class="logo"
             >Web<span class="logo__label--reverse">Studio</span></a
           >
-          <address class="address__content">
-            <ul class="address__list list">
-              <li class="address__item">
-                <a href="" class="address__link"
+          <address class="address-content address__address-content">
+            <ul class="address-content__list">
+              <li class="address-content__item">
+                <a href="" class="address-content__link"
                   >г. Киев, пр-т Леси Украинки, 26
                 </a>
               </li>
-              <li class="address__item">
-                <a href="mailto:info@devstudio.com" class="address__link mail"
+              <li class="address-content__item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="address-content__link mail"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="address__item">
-                <a href="tel.:+380961111111" class="address__link tel"
+              <li class="address-content__item">
+                <a href="tel.:+380961111111" class="address-content__link tel"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="join">
+        <div class="join footer__join">
           <h2 class="join__title">Присоединяйтесь</h2>
-          <ul class="join__list list">
+          <ul class="join__list">
             <li class="join__item">
-              <a href="" class="join__link link">
+              <a href="" class="join__link">
                 <svg class="join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="join__item">
-              <a href="" class="join__link link">
+              <a href="" class="join__link">
                 <svg class="join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="join__item">
-              <a href="" class="join__link link">
+              <a href="" class="join__link">
                 <svg class="join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="join__item">
-              <a href="" class="join__link link">
+              <a href="" class="join__link">
                 <svg class="join__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -316,7 +318,7 @@
           </ul>
         </div>
 
-        <form class="subscribe">
+        <form class="subscribe footer__subscribe">
           <h2 class="subscribe__title">Подпишитесь на рассылку</h2>
           <div class="subscribe__field">
             <input

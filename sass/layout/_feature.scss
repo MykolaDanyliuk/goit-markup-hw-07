@@ -1,12 +1,10 @@
-.feature__list {
+.feature-list {
   display: flex;
   @extend %list;
 }
 
-.feature__thumb {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.feature-list__thumb {
+  @include centeredFlex;
 
   background-color: var(--team-button-bg-color);
 
@@ -15,20 +13,18 @@
   height: 120px;
 }
 
-.feature__item + .feature__item {
+.feature-list__item + .feature-list__item {
   margin-left: 30px;
 }
 
-.feature__title {
+.feature-list__title {
   margin-bottom: 10px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.4;
+  @include font(700, 14px, 1.4, 0.03em);
   text-transform: uppercase;
 }
 
-.feature__desc {
+.feature-list__desc {
   color: var(--title-text-color);
 
   font-size: 14px;
